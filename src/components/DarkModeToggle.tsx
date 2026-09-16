@@ -29,7 +29,7 @@ export default function DarkModeToggle() {
       onClick={toggle}
       aria-label="다크모드 전환"
       suppressHydrationWarning
-      className="rounded-full border border-gray-300 px-3 py-1.5 text-sm text-gray-600 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-300 dark:hover:bg-gray-800"
+      className="rounded-full border border-white/60 bg-white/30 px-3 py-1.5 text-sm text-gray-600 backdrop-blur-md transition-colors hover:bg-white/50 dark:border-white/10 dark:bg-white/5 dark:text-gray-300 dark:hover:bg-white/10"
     >
       {isDark ? "☀️ 라이트 모드" : "🌙 다크 모드"}
     </button>

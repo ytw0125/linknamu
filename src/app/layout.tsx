@@ -13,9 +13,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" suppressHydrationWarning>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css"
+        />
+      </head>
       <body
         suppressHydrationWarning
-        className="bg-white text-gray-900 transition-colors dark:bg-gray-950 dark:text-gray-100"
+        className="min-h-screen bg-gradient-to-b from-[#FFFAF2] via-[#FFF1E1] to-[#FFE2C7] font-sans text-gray-900 antialiased transition-colors dark:from-[#161320] dark:via-[#1B1726] dark:to-[#21192B] dark:text-gray-100"
       >
         {children}
       </body>

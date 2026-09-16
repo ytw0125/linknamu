@@ -9,7 +9,7 @@ type ProfileHeaderProps = {
 export default function ProfileHeader({ name, bio, imageSrc }: ProfileHeaderProps) {
   return (
     <div className="flex flex-col items-center gap-3 text-center">
-      <div className="flex h-36 w-36 items-center justify-center overflow-hidden rounded-full bg-gray-200 text-gray-400 dark:bg-gray-800 dark:text-gray-500">
+      <div className="flex h-36 w-36 items-center justify-center overflow-hidden rounded-full bg-gray-100 text-gray-400 shadow-[0_16px_32px_-12px_rgba(210,140,90,0.45)] ring-4 ring-white/80 dark:bg-gray-800 dark:text-gray-500 dark:shadow-[0_16px_32px_-12px_rgba(0,0,0,0.6)] dark:ring-white/10">
         {imageSrc ? (
           <Image
             src={imageSrc}
@@ -25,8 +25,8 @@ export default function ProfileHeader({ name, bio, imageSrc }: ProfileHeaderProp
           </svg>
         )}
       </div>
-      <div>
-        <h1 className="text-xl font-bold">{name}</h1>
+      <div className="space-y-1.5">
+        <h1 className="text-2xl font-bold tracking-tight">{name}</h1>
         <p className="text-sm text-gray-500 dark:text-gray-400">{bio}</p>
       </div>
     </div>
