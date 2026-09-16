@@ -11,7 +11,7 @@ export const profile = {
 };
 
 export const links: LinkItem[] = [
-  { id: "github", label: "GitHub", url: "https://github.com/username" },
-  { id: "linkedin", label: "LinkedIn", url: "https://linkedin.com/in/username" },
-  { id: "blog", label: "Blog", url: "https://example.com/blog" },
+  { id: "github", label: "🐙 GitHub", url: "https://github.com/ytw0125" },
+  { id: "instagram", label: "📷 Instagram", url: "https://instagram.com/ytw0125" },
+  { id: "email", label: "📬 Email", url: "mailto:ytw060125@gmail.com" },
 ];
