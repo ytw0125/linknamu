@@ -10,7 +10,7 @@ export default function Home() {
         <DarkModeToggle />
       </div>
       <div className="flex w-full flex-col items-center gap-10 rounded-[2.5rem] border border-gray-200 bg-white px-10 py-16 shadow-sm dark:border-gray-800 dark:bg-gray-900">
-        <ProfileHeader name={profile.name} bio={profile.bio} />
+        <ProfileHeader name={profile.name} bio={profile.bio} imageSrc={profile.imageSrc} />
         <LinkList links={links} />
       </div>
     </main>

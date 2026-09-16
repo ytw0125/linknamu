@@ -7,6 +7,7 @@ export type LinkItem = {
 export const profile = {
   name: "윤태완",
   bio: "Product Manager",
+  imageSrc: "/profile.jpg",
 };
 
 export const links: LinkItem[] = [
